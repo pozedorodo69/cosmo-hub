@@ -1,0 +1,120 @@
+body{
+    background-image: url(img/488171.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+#btnav{
+    width: 250px;
+    height: 40vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background:transparent;
+    background-position: center;
+    border-radius: 10%;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+#menu{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menu img{
+    width: 20px;
+    margin-top: 15px;
+
+
+}
+
+nav .logo{
+    width: 200px;
+    position: fixed;
+}
+.sis{
+   display: flex;
+   align-items: center;
+   padding: 20px;
+   padding-left: 50px;
+   padding-top: 50px;
+   padding-right: 30px; 
+}
+.sis nav{
+    flex: 1;
+    text-align: left;
+
+}
+.sis nav ul{
+    display: inline-block;
+    list-style: none;
+}
+.sis nav ul li{
+    display: inline-block;
+    margin-left: 70px;
+    
+}
+.sis nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+   
+}
+.sis nav ul li button{
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-family: sans-serif;
+   
+}
+.sis nav ul li button:hover{
+    color: rgb(0, 255, 234);;
+    
+}
+.sis nav ul li button a:hover{
+    color: rgb(0, 255, 234);;
+}
+.sis nav ul li a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+fieldset{
+   
+    border-radius: 10%;
+    border-color: rgb(32, 87, 69);
+}
+
+
+#img {
+ background-image: url(img/cosmo-hub.png);
+ 
+}
+#fild2{
+    background-position: center;
+    border-radius: 10%;
+    border-color:#40E0D0;
+}
+
+
